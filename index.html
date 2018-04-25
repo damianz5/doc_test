@@ -22,7 +22,8 @@
             inputSelector: '#algolia_doc_search_query',
             debug: true,
             algoliaOptions: {
-                filters: 'version:latest'
+              'facetFilters': ["lang:en", "version:master"],
+              'hitsPerPage': 10
             }
         });
     </script>
