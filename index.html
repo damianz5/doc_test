@@ -1,0 +1,33 @@
+# doc_test
+
+
+<html>
+
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+
+
+<form action="/search">
+                <input id="algolia_doc_search_query" class="form-control" type="text" name="q" autocomplete="off" spellcheck="false" autocorrect="off" placeholder="search Symfony docs">
+                <input type="submit" class="sr-only">
+            </form>
+
+
+
+<script type="text/javascript" src="http://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+    <script type="text/javascript">
+        docsearch({
+            appId: 'P7UCFCUWH0',
+            apiKey: '904491daa2e3da896d8bfc154eef11b7',
+            indexName: 'ezplatform',
+            inputSelector: '#algolia_doc_search_query',
+            debug: true,
+            algoliaOptions: {
+                filters: 'version:latest'
+            }
+        });
+    </script>
+
+
+
+
+
